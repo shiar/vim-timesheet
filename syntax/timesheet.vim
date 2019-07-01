@@ -15,7 +15,7 @@ highlight link timesheetTimezone  Identifier
 " Date line.
 syntax cluster timesheetDateCluster contains=timesheetDate,timesheetComment
 syntax match   timesheetDate /[0-9-]\+/ contained
-highlight link timesheetDate Number
+highlight link timesheetDate Title
 
 " Entry line.
 syntax cluster timesheetEntryCluster contains=timesheetEntryTime,timesheetComment
