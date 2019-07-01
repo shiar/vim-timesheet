@@ -1,3 +1,6 @@
+setlocal comments=b:#
+setlocal commentstring=#\ %s
+
 " Create a new timestamp entry at the end of the file.
 function! s:NewTimesheetEntry()
 	" Go to the end of the file, because that's the only place where
